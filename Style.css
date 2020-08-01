@@ -1,0 +1,63 @@
+body{
+  background-color: #111;
+  font-family: 'Poppins', Roboto, sans-serif;
+}
+h1{
+  font-family: 'Poppins', Roboto, sans-serif;
+  text-align: center;
+  color: #ddd;
+}
+h2{
+  font-family: 'Poppins', Roboto, sans-serif;
+  text-align: center;
+  font-size: 23pt;
+  color: #ddd;
+  text-decoration: underline;
+}
+#c1{
+  float: left;
+  background-image: url("https://media.wizards.com/2016/images/daily/c4rd4r7_-KujOY2mXoe.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#c2{
+  float: right;
+  background-image: url("https://media.wizards.com/2015/images/daily/c4rd4r7_-KaHM1v3BK1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#p1, #p2{
+  backdrop-filter: blur(3px);
+}
+.btn{
+  font-family: 'Poppins', Roboto, sans-serif;
+  border: 0.1em solid #aaa;
+  background: none;
+  text-align: center;
+  height: 70px;
+  border-radius: 10px;
+  width: 70px;
+  color: #aaa;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 7px;
+  outline: none;
+  backdrop-filter: blur(3px);
+}
+.botoes{
+  text-align: center;
+}
+.display{
+  width: 120px;
+  text-align: center;
+  font-size: 85px;
+  color: #ddd;
+  margin: 0 auto;
+}
+.contador{
+  width: 49.5%;
+  height: 75vh;
+  border-radius: 10px;
+}
